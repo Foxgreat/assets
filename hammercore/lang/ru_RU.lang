@@ -1,0 +1,145 @@
+﻿
+itemGroup.hammercore=Hammer Core
+
+###ITEMS###
+
+item.hammercore:manual.name=Инструкция по Hammer Core
+
+###########
+
+# Definitions
+definition.hammercore:fe.short=ЭФ
+definition.hammercore:fe.long=Энергия Фордж
+definition.hammercore:bt.short=ТГ
+definition.hammercore:bt.long=Тики Горения
+
+##GUI##
+
+gui.hammercore.notfuel=Не топливо!
+gui.hammercore.generation=Генерация
+gui.hammercore.consumption=Потребление
+gui.hammercore.burntime=Время сгорания
+gui.hammercore.energy=Энергия
+gui.hammercore.process=Процесс
+gui.hammercore.fept=ЭФ/тик
+gui.hammercore.feps=ЭФ/сек
+
+options.modelPart.hammercore:renderSpecial=Отображать доп.
+options.modelPart.hammercore:overrideCape=Перезписать плащ
+options.modelPart.hammercore:skinType=Тип скина
+
+options.hammercore:skintype.0=Унаследовать
+options.hammercore:skintype.1=Классический
+options.hammercore:skintype.2=Тонкий
+
+gui.hammercore:calculatron=Калькулятрон vVERSION
+info.hammercore:energy_stored=RF Накоплено
+info.hammercore:changed_mode=Зарядка
+
+battery.hammercore:mode.noshare=Выключено
+battery.hammercore:mode.hotbar=панель быстрого доступа
+battery.hammercore:mode.armor=броня
+battery.hammercore:mode.armor_hotbar=броня и панель быстрого доступа
+battery.hammercore:mode.inventory=инвентарь
+
+capability.fe.name=FE
+capability.ej.name=EJ
+capability.fluid.name=Жидкости
+capability.items.name=Предметы
+
+chat.hammercore:newversion=Найдена новая версия мода %s: %s.
+chat.hammercore:corrupt=Мод %s был поврежден!
+chat.hammercore:newversion.clickdwn=Скачать
+chat.hammercore:newversion.clickdwn.detail=Нажмите, что бы открыть браузер на оффициальной странице скачивания мода.
+
+#######
+
+##MANUAL##
+
+hc.manual_cat.hammercore=Hammer Core
+
+hc.manual_name.hammercore=Hammer Core
+hc.manual_text.hammercore=Ядро для всех модов от Zeitheron
+hc.manual_desc.hammercore=HammerCore предоставляет очень огромный набор утилитного кода, некоторые из них: ChunkLoad-API, Tooltip API (отображает информацию о блоке через WAILA и The One Probe), Network API (для отправки пакетов сохраненных в названном компоненте тегов [NBT]), Multipart API, прикольные визуальные эффекты и много другого.
+
+hc.manual_name.wrench=Гаечный ключ
+hc.manual_text.wrench=Демонтировать проклятую вещь!
+hc.manual_desc.wrench=HammerCore добавляет WrenchAPI что бы сделать моды от Zeitheron независимыми от Buildcraft API. Данный предмет является простым ключом, который применяется на блоки которые могут реагировать на этот API.
+
+hc.manual_name.apengu=APengu
+hc.manual_text.apengu=Грустная история прошлого
+hc.manual_desc.apengu.1=APengu был известен за разработку многих хороших модов (в 2017 году), и меня, конечно. Его жизнь была хорошей, он часто обновлял свои моды, добавлял новые идеи и больше API для меня, Hammer Core. Он был очень умным изобретателем в сообществе Minecraft. Но однажды, он увидел большого голубого дракона, который летал вокруг, и, вероятно, потерялся в поле. Он вышел и попытался встретить дракона. Этот пингвин, учитывая большую разницу в размерах, использовал свой усилитель громкости, чтобы заставить дракона заметить его. §4«Привет!»§f, - сказал он. Да, дракон услышал его и приземлился рядом. Глаза дракона были оранжевыми,
+hc.manual_desc.apengu.2=что означало, что он был очень голоден. §b«Ты хорошая закуска, мелкий!»§f, - прорычал он, глядя на моего создателя... §4«Погоди, я не закуска! Я талантливый разработчик, который работает в сообществе Minecraft!»§f - закричал пингвин, но было уже слишком поздно. Дракон начал лизать APengu, затем он подкинул его в воздух, открыл пасть, и бедный пингвин приземлился в его рот, и был проглочен одним глотком, целиком. Тогда дракон сказал: §b«Как видишь, ты должен дать мне продолжить твою работу, поскольку я очень талантлив, и извиняюсь за то, что не представился, мое имя Зейтерон, но я думаю, что уже поздно, хе-хе»§f. Пингвин был еще жив в течение нескольких часов, он кричал от боли, пытался выбраться из зверя, но ничего не получалось.
+hc.manual_desc.apengu.3=И в результате что у нас есть: увы, я мало что знаю о чем-то еще, но этот §mмонстр§f дракон по имени Зейтерон сдержал свое слово, и как оказалось, он также любит холодные места, так как он ледяной дракон. Хотя, старый дом был довольно большим для APengu, но что касается Зейта, ну, тот дом идеально подходит, так как дракон был больше, чем бедный пингвин. И да, теперь меня и другие моды APengu разрабатывает дракон, и я думаю, что он более талантлив, так как он сделал несколько своих модов, которые оказались действительно хорошими, и эй! Он использует меня, Hammer Core, я действительно счастлив.
+
+hc.manual_name.zeitheron=Зейтерон
+hc.manual_text.zeitheron=Ледяной дракон
+hc.manual_desc.zeitheron.1=После печальной истории с APengu, у меня появился новый владелец по имени Зейт, ледяной дракон. Он несет ответственность за все мои оплошности и неудобства, которые я могу вам причинить. Иногда доходит до того, что я вообще отказываюсь исправляться, и проблемы, по-видимому, невозможно исправить. Но достаточно обо мне, эта запись не о мне! Зейтерон - очень хороший и симпатичный дракон, он примерно такой же высокий, как два средних человека. Я должен также отметить, что он может изменять цвет своих глаз, в разных ситуациях. Например, когда он голоден, его глаза оранжевые, когда печален - серые.
+hc.manual_desc.zeitheron.2=На шее у него рыбоподобный светло-голубой плавник, и у него есть уши, которые необычны, но не редкость для драконов. Его личность добрая, он заботится о друзьях, всегда идет мирным путем и избегает любых конфликтов. Зейт также наслаждается, когда его живот трут. Если вы хотите узнать больше о нем, вы должны просто познакомиться с ним, он, вероятно, не будет есть вас, только, я полагаю, если вы не встретите его с оранжевыми глазами.
+
+recipe.type.workbench=Создание
+recipe.type.workbenchshapeless=Создание (Безформенное)
+recipe.type.construct=Мультиблочная постройка
+recipe.type.smelting=Обжарка
+recipe.clickthrough=Кликните, что бы посмотреть рецепт
+recipe.return=Назад
+
+##########
+
+##SPLASH TEXTS##
+
+hc.splash.mod=Так же попробуйте мод %s!
+
+hc.splash.thaumcraft.1=%player% вы разлили теинт на пол!
+
+hc.splash.draconicevolution.1=So THAT is what happens after a draconic reactor meltdown
+hc.splash.draconicevolution.2=How many megatons is the draconic reactor explosion?
+
+hc.splash.ic2.1=How many megatons is the ic2 reactor explosion?
+
+hc.splash.ae2.1=If E=mc^2 then how does AE2 not explode when storing dense materials?
+
+hc.splash.1=Теперь с модами!
+hc.splash.2=На ум приходит определенный пингвин...
+hc.splash.3="Это было долго. Как твои дела?"
+hc.splash.4=Теперь СО ЗВУКОМ!
+hc.splash.5=На 99 процентов кубический!
+hc.splash.6=Вы потеряли несколько секунд читая это!
+hc.splash.7=Ня!
+hc.splash.8=You feel that a dragon is watching you...
+hc.splash.9=It feels like a dragon was here before you...
+hc.splash.10=I like your choice! Really!
+
+hc.splash.11=*Cracks Fingers* Welp, time to get to work!
+hc.splash.12=What's today's plan then?
+hc.splash.13=You're going to do MORE work on that project?!
+hc.splash.14=Fresh day, fresh start!
+hc.splash.15=Sorry, not sorry!
+hc.splash.16=You tried to hug a creeper again, didn't you?
+hc.splash.17=Welp, attempt 5327 I guess?
+hc.splash.18=In all honesty... Yeah it was your fault
+hc.splash.19=Note to self... explosions are enabled
+hc.splash.20=Endermen can break blocks?!?!
+hc.splash.21=Least you survived.. Oh.. Only a few minutes?
+hc.splash.22=You accidently hit the "quit" instead of "respawn" again, didn't you?
+hc.splash.23=At least you tried...
+hc.splash.24=Lagged out?
+hc.splash.25=Ooh, found a new server?
+hc.splash.26=What was the IP again?
+hc.splash.27=HAMMAH TIME!!!
+hc.splash.28=Is this a feature or a mechanic?
+hc.splash.29=It's not an exploit if its a mechanic!
+hc.splash.30=It's not a bug if its a mechanic!
+hc.splash.31=Dragons are always welcome!
+hc.splash.32="Lewds with all the sexy dergs" - Kenith
+
+################
+
+##GAME RULES##
+
+gamerules.hc_unknown=Это игровое правило не зарегестрировано!
+gamerules.hc_rainfall=Установите 'false' что бы выключить дождь.
+gamerules.hc_falldamagemult=Множитель урона при падении для всех существ.
+gamerules.hc_flightspeed=Множитель скорости полёта для всех игроков.
+
+##############
